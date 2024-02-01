@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.png
+.jpg
+.jpeg
+.gif
+.pdf
+.lectures
+.zip
+README.html
+/.quarto/
+/_site/
+/pdf/
+/.luarc.json
+/img/

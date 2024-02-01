@@ -1,0 +1,347 @@
+---
+title: ''
+author: ''
+format:
+  html:
+    theme: 
+      light: ember.scss
+      dark: slate
+    css: custom.scss
+    fontsize: 1.1em
+    linestretch: 1.5
+    linkcolor: red
+    smooth-scroll: true 
+  pdf:
+    pdf-engine: lualatex
+    geometry:
+      - top=30mm
+      - left=30mm
+      - heightrounded
+    linestretch: 1.2
+    papersize: letter
+    colorlinks: true
+  docx: default
+filters: 
+  - lightbox
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: right
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+# IHFILM-110-01: Robot Stories
+
+::: {layout="[[59, -2, 39]]"}
+![](img/all-full-love.jpg){description="Björk<br /><br />[All Is Full of Love](https://vimeo.com/43444347)<br /><br />Dir. Chris Cunningham<br /><br />1997"}
+
+<small>[Keene State College](https://keene.edu)\
+Department of Film\
+Spring Semester 2024\
+Monday 2:00-5:30 p.m.\
+Redfern Arts Center---Putnam\
+Dr. Martin Roberts\
+Office hrs: Wed 3:00-5:00 p.m.  Office: Media Arts 124\
+Email: martin.roberts\@keene.edu</small>
+:::
+
+### Overview
+
+Although the dream of creating artificial life is almost as old as human civilization itself, the robot is one of the emblematic creations of modernity. This course approaches the robot not just as a technological but a cultural artifact, considering the cultural mythology of the robot that has emerged in literature, film, television, and other media over the past century. As it will show, the robot has functioned as a screen for the projection of both utopian and dystopian fantasies about the future, and the possibilities and dangers of technology. In the age of artificial intelligence, these anxieties around the robot have become particularly acute. Ultimately, the figure of the robot enables us to explore perhaps the most fundamental question of our existence: what does it mean to be human?
+
+------------------------------------------------------------------------
+
+### Texts
+
+Most readings will be available in PDF format via links in the syllabus. Please download all PDFs (see also Files page for all PDFs), print them out and mark them up when reading.
+
+Dustin A. Abnet, *The American Robot: A Cultural History*. Chicago: Chicago University Press, 2020.
+
+Isaac Asimov, *I, Robot*.
+
+Jitka Čejková, ed., [*R.U.R. and the Vision of Artificial Life*](https://mitpress.mit.edu/author/karel-capek-38668). Cambridge, MA: MIT Press, 2024. [Robot100 website](https://www.robot100.cz/rur)
+
+John Jordan, *Robots*. Essential Knowledge series. Cambridge, MA: MIT Press, 2016.
+
+------------------------------------------------------------------------
+
+### Films
+
+*L’Uomo Meccanico*\
+*Metropolis* (DVD PN1993.5.G4 .M48 2002)\
+*Forbidden Planet*\
+*Westworld* (1973)\
+*Star Wars* trilogy (DVD box PN1997.S72653 2004)\
+*Android*\
+*Blade Runner* (DVD PN1997.B5452 2007)\
+*Robocop* [book about Robocop](https://keenestatecollege.on.worldcat.org/oclc/1039418633)\
+*Terminator 2* (DVD PN1997.T469 2003)\
+*Ghost in the Shell*\
+*Artificial Intelligence* (DVD DVD A.I.)\
+*I, Robot* (Mason, no call number)\
+*Ex Machina* (listed as e-video, no call number)\
+*Her*\
+*EO*\
+*The Stepford Wives* (Bryan Forbes, 1975) (PN1997.S7295 2004)
+
+### TV
+
+*Astroboy*\
+*Lost in Space*\
+*Twilight Zone*\
+*The Jetsons*\
+*Futurama*\
+*Real Humans*\
+*Humans*\
+*DEVS*\
+*Westworld*
+
+### Other Resources
+
+[Robot100 website](https://www.robot100.cz/rur)
+
+[*Artificial Life*](https://direct.mit.edu/artl/issue/29/4) (MIT Press journal)
+
+[ALife 2024 Conference](https://2024.alife.org/index.html)
+
+[Virtual Creatures competition 2024](https://sites.google.com/view/vcc-2024/home?authuser=0)
+
+[Virtual Creatures past winners](https://sites.google.com/view/vcc-2024/past-winners?authuser=0)
+
+[Emmy The Robot](https://www.webtoons.com/en/canvas/emmy-the-robot/greetings-/viewer?title_no=402201&episode_no=12) (webtoon)
+
+------------------------------------------------------------------------
+
+### Assignments
+
+**Reading Posts (20%)**\
+Minimum 10 posts to the weekly Reading forums over the semester. Graded P/F. 100-250 words. Due end of day Friday, with questions or comments for discussion at class the following Monday.
+
+**Screening Reports (45%)**\
+Analysis (3) of a film (or an approved related film) from screenings. Letter grade. Due end of weeks 4, 7, 10. 750-1,000 words / 3-4 pages
+
+**Research Paper + Presentation (20% + 10%)**\
+Analysis of one season of a serial TV series or 3 films by an approved director. Due exam week. Letter grade. 1,500-1,750 words (with bibliography, not included in word count) / 6-7 pages
+
+**Engagement** (15%)\
+Includes attendance, punctuality, participation in class discussions, office hours meetings, etc.
+
+------------------------------------------------------------------------
+
+### Schedule of Classes
+
+------------------------------------------------------------------------
+
+*Week 1*
+
+01/16 NO CLASS (Martin Luther King, Jr. Day)
+
+------------------------------------------------------------------------
+
+*Week 2*
+
+01/22 **Nostalgia for the Future**
+
+Reading:\
+John Jordan, “[Robots in Popular Culture](/courses/2208282/files/298758433?wrap=1 "jordan-robots-pop-culture.pdf")” (PDF)
+
+Abnet, *The American Robot*, “[Introduction: An Intimate and Distant Machine](pdf/american-robot-intro.pdf)” (PDF)
+
+Screening: [*L’Uomo Meccanico*](https://scifist.net/2018/06/01/luomo-meccanico/comment-page-1/) *Metropolis*, part I
+
+------------------------------------------------------------------------
+
+*Week 3*
+
+01/29 **Rossum’s Universal Robots**
+
+Reading:
+
+Jitka Čejková, [Introduction](/courses/2208282/pages/introduction-r-dot-u-r-and-the-vision-of-artificial-life "Introduction: R.U.R. and the Vision of Artificial Life") to *R.U.R. and the Vision of Artificial Life*
+
+[Robot100 website](https://www.robot100.cz/rur)
+
+Čapek, [*R.U.R.*](/courses/2208282/files/299991557?wrap=1 "R.U.R._ Or, Rossum's Universal Robots - Karel Capek.pdf")
+
+[Virtual Creatures competition](https://sites.google.com/view/vcc-2024)
+
+Screening: *Metropolis*, part II
+
+------------------------------------------------------------------------
+
+*Week 4*
+
+02/05 **Slaves: Work/Labor**
+
+Reading: Abnet, *The American Robot:*
+
+-   ch. 4: "[Symbolizing the Machine Age](pdf/american-robot-ch4.pdf)"
+
+-   ch. 5: "[Building the Slaves of Tomorrow](pdf/american-robot-ch5.pdf)" 
+
+Marcus and Jones, “[Where’s Rosie?](pdf/marcus-rebooting-ai-ch5.pdf)” (in *Rebooting AI*, ch. 5)
+
+[Rosey the Robot](https://thejetsons.fandom.com/wiki/Rosey), Jetsons Wiki
+
+Screening: *Forbidden Planet*
+
+------------------------------------------------------------------------
+
+*Week 5*
+
+02/12 **Tomorrowlands**
+
+Reading: Abnet, *The American Robot*, chs. 6-7
+
+Screening: *Westworld*
+
+------------------------------------------------------------------------
+
+*Week 6*
+
+02/19 **Logic Traps & Feedback Loops**
+
+Reading: Asimov, *I, Robot*
+
+Screening: *I, Robot*
+
+------------------------------------------------------------------------
+
+*Week 7*
+
+02/26 **Turing Test**
+
+Screening: *Blade Runner*; *Android*
+
+------------------------------------------------------------------------
+
+*Week 8*
+
+03/04 **Tomorrow’s Eves**
+
+Reading: Villiers de L’Isle-Adam, *Tomorrow’s Eve* (excerpts)
+
+Screening: *Ex Machina*; *Her*
+
+------------------------------------------------------------------------
+
+*Week 9*
+
+03/11 **Cyborgs**
+
+Screening: *Terminator, Robocop*
+
+------------------------------------------------------------------------
+
+Spring Break
+
+------------------------------------------------------------------------
+
+*Week 10*
+
+03/25 **Media Mix**
+
+Reading: Schodt, selected chapters from *The Astroboy Essays* (PDF)
+
+Steinberg, “Media Mixes, Media Transformations”
+
+Screening: *Tetsuwan Atomu*
+
+------------------------------------------------------------------------
+
+*Week 11*
+
+04/01 **Ghosts**
+
+Reading: Ruh, selected chs. from *Stray Dog of Anime: The Films of Mamoru Oshii*
+
+Screening: *Ghost in the Shell*
+
+------------------------------------------------------------------------
+
+*Week 12*
+
+04/08 **Animals**
+
+Reading: Fausto, “A Place for EO”
+
+Screening: *EO* (Jerzy Skolimowski, 2023)
+
+------------------------------------------------------------------------
+
+Week 13
+
+04/15 Research Projects: Presentations
+
+------------------------------------------------------------------------
+
+Week 14
+
+04/22 Research Projects: Presentations
+
+0426 Classes end
+
+------------------------------------------------------------------------
+
+### Select Bibliography
+
+Dustin A. Abnet, *The American Robot: A Cultural History*. Chicago: Chicago University Press, 2020.
+
+Ruth Aylet and Patricia A. Vargas, *Living With Robots: What Every Anxious Human Needs to Know*. Cambridge, MA: MIT Press, 2021.
+
+Isaac Asimov, *I, Robot* (ref)
+
+Karel Čapek, [*R.U.R. and the Vision of Artificial Life*](https://mitpress.mit.edu/author/karel-capek-38668). Cambridge, MA: MIT Press, 2024.
+
+John Jordan, *Robots*. Essential Knowledge series. Cambridge, MA: MIT Press, 2016.
+
+Gary Marcus and Ernest Jones. *Rebooting AI: Building Artificial Intelligence We Can Trust*. New York: Pantheon Books, 2019.
+
+Helen McCarthy, *The Art of Osamu Tezuka: God of Manga* (New York: Abrams, 2009).
+
+Brian Ruh, *Stray Dog of Anime: The Films of Mamoru Oshii* (New York: Palgrave-MacMillan, 2014).
+
+Frederik L. Schodt, *The Astro Boy Essays: Osamu Tezuka, Mighty Atom, and the Manga/Anime Revolution* (Berkeley, CA: Stone Bridge Press, 2007).
+
+Marc Steinberg, *Anime’s Media Mix: Franchising Toys and Characters in Japan* (Minneapolis: Minnesota University Press, 2012).
+
+Auguste Villiers de l’Isle-Adam, *Tomorrow’s Eve* (*L’Ève Future*) (1886).
+
+------------------------------------------------------------------------
+
+### Policies & Protocol
+
+**Attendance**
+
+Keene State policy: A student who misses more than 3 weeks in the first 10 weeks of the semester (regardless of the reason, including excused absences and emergencies) must withdraw from the course. The student must follow the regular withdrawal procedure. The complete KSC attendance policy can be viewed at <http://www.keene.edu/registrar/policy/policy.cfm#6>
+
+------------------------------------------------------------------------
+
+##### **Readings & assignments**
+
+Readings assigned for each week should be completed **prior to** the class meeting. Assignments are due at the beginning of the class unless stated otherwise. **Please do not email submissions.**
+
+------------------------------------------------------------------------
+
+##### **Discussion & participation**
+
+Class discussion (i.e. your participation) is one of the most essential parts of this class. Please come to class fully prepared. Also keep in mind that we always need to work together in order to create a productive and inspiring academic environment by being polite and respectful toward other students’ comments and ideas. In order to ensure full participation and engagement in class, the use of laptops and/or mobile devices during lectures, discussion, and screenings is not permitted.
+
+------------------------------------------------------------------------
+
+##### **Academic honesty**
+
+We understand and agree that we are participating in higher education. We respect this process and will act as mature and responsible individuals in it. To ensure that, all students are expected to hand in original written work. Using other people’s words without proper attribution constitutes plagiarism. Plagiarism and any other forms of cheating will result in an F for the assignment and may include further College sanctions. In this class, every student must be aware of and adhere to the college’s policy on academic honesty. Detailed procedures and processes pertaining to the Policy on Academic Honesty can be viewed at <http://www.keene.edu/policy/academichonesty.cfm>
+
+------------------------------------------------------------------------
+
+ 
+
+------------------------------------------------------------------------
