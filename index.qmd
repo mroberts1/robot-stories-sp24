@@ -3,16 +3,15 @@ title: ''
 author: ''
 format:
   html:
-    theme: 
+    theme:
       light: ember.scss
       dark: slate
     css: custom.scss
     fontsize: 1.1em
     linestretch: 1.5
     linkcolor: red
-    smooth-scroll: true 
+    smooth-scroll: true
   pdf:
-    pdf-engine: lualatex
     geometry:
       - top=30mm
       - left=30mm
@@ -21,7 +20,7 @@ format:
     papersize: letter
     colorlinks: true
   docx: default
-filters: 
+filters:
   - lightbox
 lightbox:
   match: auto
